@@ -2,7 +2,7 @@ export default {
     template: `<h1>{{ message }}</h1>`,
 
     created: function() {
-        console.log('our component1 redered');
+        console.log('our LandingPage redered');
     },
 
     data: function() {
