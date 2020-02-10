@@ -37,11 +37,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Azores, Mikka Theres** - *Motion Designer* - [Email](m_azores91446@fanshaweonline.ca)
-* **Kim, Hyeryn** - *Project Manager* - [Email](h_kim90825@fanshaweonline.ca)
-* **Marin, Dana** - *Front End Developer* - [Email](d_maringarcia@fanshaweonline.ca)
-* **Lee, Gahyun** - *Back End Developer* - [Email](g_lee89360@fanshaweonline.ca)
-* **Nguyen, Thi Hai Ngoc** - *Designer* - [Email](t_nguyen91265@fanshaweonline.ca)
+* **Azores, Mikka Theres** - *Motion Designer* - [GitHub](https://github.com/mazores)
+* **Kim, Hyeryn** - *Project Manager* - [GitHub](https://github.com/HRK9501)
+* **Marin, Dana** - *Front End Developer* - [GitHub](https://github.com/danamaring)
+* **Lee, Gahyun** - *Back End Developer* - [GitHub](https://github.com/Gahyunlee23)
+* **Nguyen, Thi Hai Ngoc** - *Designer* - [GitHub](https://github.com/someting..megan)
 
 See also the list of [contributors](https://github.com/Gahyunlee23/Azores_Kim_Lee-G_Marin_Nguyen_Hackathon/graphs/contributors) who participated in this project.
 
