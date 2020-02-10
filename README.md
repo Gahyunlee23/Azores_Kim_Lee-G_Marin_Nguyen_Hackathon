@@ -37,7 +37,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Azores, Mikka Theres** - *Motion Designer* - [GitHub](m_azores91446@fanshaweonline.ca)
+* **Azores, Mikka Theres** - *Motion Designer* - [Email](m_azores91446@fanshaweonline.ca)
 * **Kim, Hyeryn** - *Project Manager* - [Email](h_kim90825@fanshaweonline.ca)
 * **Marin, Dana** - *Front End Developer* - [Email](d_maringarcia@fanshaweonline.ca)
 * **Lee, Gahyun** - *Back End Developer* - [Email](g_lee89360@fanshaweonline.ca)
