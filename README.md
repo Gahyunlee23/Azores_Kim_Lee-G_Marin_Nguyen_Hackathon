@@ -54,3 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [php.net](https://www.php.net/)
 * [MDN](https://developer.mozilla.org/en-US/)
 * [CSS-Tricks](https://css-tricks.com/)
+* [Meyerweb Reset](https://meyerweb.com/eric/tools/css/reset/)
