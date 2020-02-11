@@ -1,5 +1,43 @@
-@import '_vars';
-@import '_sign-up';
+@import 'modules/_vars';
+@import 'modules/_sign-up';
+@import 'modules/_header';
 
 
+//General Styling 
+.hidden {
+    display: none;
+}
+
+//SVG Map
+#map-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#regions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    padding-top: 15%;
+}
+
+#regions h1 {
+    cursor: pointer;
+}
+
+#map {
+    background-image: url(../images/map.svg);
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 5% 0;
+}
+
+#southern_ON:hover {
+    background-image: url(../images/map_southern_ON.svg);
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 5% 0;
+}
 

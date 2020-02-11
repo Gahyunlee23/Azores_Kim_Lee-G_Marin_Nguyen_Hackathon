@@ -1,10 +1,9 @@
-export default {
-    template: `
-    <body>
+<body>
     <!-- Header -->
     <header id="hero-section">
         <div id="logo-header">
             <img src="images/logo_clear100.svg" alt="Ontario Summer Logo">
+            <router-link to="/"></router-link>
         </div>
         <div id="header-nav">
             <img src="images/twitter.svg" alt="Twitter">
@@ -15,6 +14,10 @@ export default {
             <router-link to="/SignIn">Sign up</router-link>   
         </div>
     </header>
+    <!-- Hero Image -->
+    <section>
+        <div id="hero-image"></div>
+    </section>
     <!-- About us -->
     <section id="about-section">
        <h1 class="hidden">About Us</h1>
@@ -71,15 +74,5 @@ export default {
         </div>
     </footer>
 </body>
-    `,
 
-    created: function() {
-        console.log('our LandingPage redered');
-    },
 
-    data: function() {
-        return {
-            message: "Welcome to my Super Awesome App!"
-        }
-    }
-}
