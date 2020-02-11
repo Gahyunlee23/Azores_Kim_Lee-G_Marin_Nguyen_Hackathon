@@ -6,14 +6,18 @@
 
     if(isset($_POST['submit'])) {
         $firstname = trim($_POST['firstname']);
+        $lastname = trim($_POST['lastname']);
         $email = trim($_POST['email']);
+        $country = trim($_POST['country']);
 
         if(!empty($firstname) && !empty($email)) {
             // Do the Signup form 
-            $message = signup($firstname, $email, $update_date);
+            $message = signup($firstname, $lastname, $email, $country, $update_date);
+
         } else {
             $message = 'Please fill out the required field';
         }
+        
     }
 ?>
 
