@@ -21,8 +21,11 @@
 //Promo Video 
 #promo-video {
     img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -100,21 +103,73 @@
             font-size: 2em;
         }
     }
+}
 
-    // #map-mobile {
-    //     display: none;
-    // }
+//media query 768px ---DESKTOP---
+@media screen and (min-width: 64em) {
+    #about-section {
+        p {
+            font-size: 1.5em;
+        }
+    }
 
-    // #map-desktop {
-    //     display: block;
-    //     background-image: url(../images/map.svg);
-    //     background-repeat: no-repeat;
-    //     height: 400px;
-    //     width: auto;
-    //     background-position: center;
-    //     margin: 5%;
-    // }
+    #cta {
+        h3 {
+            margin: 27% 9%;
+            padding: 5% 5%;
+            font-size: 2.8em;
+        }
+    }
 
+    #map-mobile {
+        margin-top: 0;
+        display: none;
+    }
 
+    #map-desktop {
+        display: block;
+        background-image: url(../images/map.svg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 500px;
+        background-position: center;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    #map-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #regions {
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+
+    #regions {
+        margin-top: 6%;
+    } 
+}
+
+//media query 768px ---MAX DESKTOP---
+@media screen and (min-width: 90em) {
+    #about-section {
+        p {
+            width: 60%;
+            margin-left: 17%;
+        }
+    }
+
+    #map-desktop {
+        height: 700px;
+        width: 700px;
+    }
+
+    #regions {
+        margin-top: 14%;
+    }
 }
     

@@ -63,6 +63,7 @@
     width: 100%;
     height: 600px;
     background-position: center;
+    background-size: cover;
 }
 
 
@@ -122,5 +123,75 @@
     }
 }
 
+//media query 768px ---DESKTOP---
+@media screen and (min-width: 64em) {
+    #logo-header {
+        height: 200px;
+        width: 18%;
+    }
 
+    #logo-header {
+        img {
+            width: 65%;
+            padding: 21% 0 0 16%;
+        }
+    }
 
+    #hero-text {
+        font-size: 3.5em; 
+        padding-top: 27%;
+    }
+
+    #sign-in {
+        width: 8em;
+        margin-top: 3%;
+    }
+
+    #sign-in {
+        a {
+            padding: 4px 20px;
+        }
+    }
+
+    #header-nav {
+        margin-left: 57%;
+    }
+}
+
+//media query 768px ---MAX DESKTOP---
+@media screen and (min-width: 90em) {
+    #hero-image {
+        height: 900px;
+    }
+
+    #sign-in {
+        a {
+            padding: 6px 30px;
+        }
+    }
+
+    #sign-in {
+        margin-bottom: 2%;
+    }
+
+    #header-nav {
+        a {
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    #header-nav {
+        margin-left: 60%;
+        margin-top: -78px;
+    }
+
+    #logo-header {
+        height: 250px;
+    }
+
+    #hero-text {
+        font-size: 5em;
+    }
+}   
