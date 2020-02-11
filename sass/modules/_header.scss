@@ -1,0 +1,57 @@
+//Header Flexbox
+
+#hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#logo-header {
+    background-color: white;
+    cursor: pointer;
+}
+
+#logo-header img {
+    width: 45%;
+    padding: 5%;
+}
+
+#header-nav {
+    display: none;
+}
+
+
+// #header-nav {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+// }
+
+// #header-nav {
+//     img {
+//         width: 5%;
+//         padding: 5%;
+//     }
+// }
+#sign-in{
+    width: 6em;
+    margin-top: 10%;
+    margin-right: 3%;
+} 
+
+#sign-in {
+    a {
+        border: 2px solid black !important;
+        text-decoration: none;
+        border-radius: 3em;
+        background-color: $yellow;
+        color: black;
+        padding: 2px 16px;
+        font-family: $header;
+
+    }
+}
+
+
+
