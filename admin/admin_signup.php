@@ -9,7 +9,7 @@
         $email = trim($_POST['email']);
 
         if(!empty($firstname) && !empty($email)) {
-            // Do the login here
+            // Do the Signup form 
             $message = signup($firstname, $email, $update_date);
         } else {
             $message = 'Please fill out the required field';
