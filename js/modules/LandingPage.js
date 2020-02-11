@@ -30,7 +30,7 @@ export default {
     </section>
     <!-- Promo Video -->
     <section id="promo-video">
-        <img src="images/fake_video.jpg" alt="Promo Video">
+        <video src="video/Azores_Kim_Lee_Marin_Nguyen_OntarioSummer.mp4" controls></video>
     </section>
     <!-- Call To Action -->
     <section id="cta">
