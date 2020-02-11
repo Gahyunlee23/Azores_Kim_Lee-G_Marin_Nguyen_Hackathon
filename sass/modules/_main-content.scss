@@ -69,10 +69,13 @@
     
 #regions {
         
-    h1 {
+    a {
             cursor: pointer;
             font-family: $title;
             text-align: center;
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
         }
 }
 
@@ -99,7 +102,7 @@
     }
 
     #regions {
-        h1 {
+        a {
             font-size: 2em;
         }
     }
@@ -144,7 +147,7 @@
     }
 
     #regions {
-        h1 {
+        a {
             font-size: 1.5em;
         }
     }
@@ -152,6 +155,13 @@
     #regions {
         margin-top: 6%;
     } 
+
+    #regions a:hover {
+        color: $orange;
+        font-size: 1.7em;
+        transition-timing-function: ease;
+        transition: 0.35s;
+    }
 }
 
 //media query 768px ---MAX DESKTOP---
