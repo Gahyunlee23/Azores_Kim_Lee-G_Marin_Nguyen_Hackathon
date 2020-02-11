@@ -2,7 +2,6 @@
     require_once '../load.php';
     date_default_timezone_set('America/Toronto');
     $update_date = date("Y-m-d, H:i:s");
-    echo $update_date;
 
     if(isset($_POST['submit'])) {
         $firstname = trim($_POST['firstname']);
@@ -13,10 +12,12 @@
         if(!empty($firstname) && !empty($email)) {
             // Do the Signup form 
             $message = signup($firstname, $lastname, $email, $country, $update_date);
-
+    
         } else {
             $message = 'Please fill out the required field';
         }
+
+        
         
     }
 ?>
