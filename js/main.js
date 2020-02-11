@@ -4,6 +4,11 @@ import SignIn from "./modules/SignIn.js";
 import ErrorComponent from "./modules/ErrorComponent.js";
 import southern from "./modules/southern.js";
 import southwestern from "./modules/southwestern.js";
+import northern from "./modules/northern.js";
+import central from "./modules/central.js";
+import eastern from "./modules/eastern.js";
+
+
 
 
 //these are the same as Express routes -> router.get('/, ... do something with the request)
@@ -12,7 +17,11 @@ const routes = [
     { path: '/SignIn', name: 'SignIn', component: SignIn },
     { path: '*', name: 'error', component: ErrorComponent },
     { path: '/southern', name: 'southern', component: southern },
-    { path: '/southwestern', name: 'southwestern', component: southwestern }
+    { path: '/southwestern', name: 'southwestern', component: southwestern },
+    { path: '/northern', name: 'northern', component: northern },
+    { path: '/central', name: 'central', component: central },
+    { path: '/eastern', name: 'eastern', component: eastern }
+
 ]
 
 const router = new VueRouter({
