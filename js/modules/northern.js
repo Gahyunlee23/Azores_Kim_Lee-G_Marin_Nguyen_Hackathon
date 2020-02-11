@@ -16,41 +16,38 @@ export default {
         </div>
     </header>
     <!-- Hero Image -->
-    <section>
-        <div id="hero-image">
-            <h2 id="hero-text">FIND YOURSELF AT HOME</h2>
+    <section id="hero-image-northern">
+        <div>
+            <h2 id="hero-text-south">NORTHERN ONTARIO</h2>
+        </div>
+        <div id="hero-p">
+            <p>'Big' is a theme in Northern Ontario. The area is so vast that it could fit six Englands and still have room for a Scotland or two. 
+            </p>
         </div>
     </section>
-    <!-- About us -->
-    <section id="about-section">
-       <h1 class="hidden">About Us</h1>
-       <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus soluta nisi voluptatibus temporibus est corrupti deleniti dolores distinctio molestiae voluptas sit tenetur illo in facere sint, veniam deserunt laudantium iure!
-       </p>
+    <!-- Activity Section 1 -->
+    <section id="act-1">
+        <img src="../images/NorthOn_2.jpg" alt="Agawa Canyon Tour Train">
+        <h1 id="act-title">Agawa Canyon Tour Train</h1>
+        <p id="act-p">Agawa Canyon Tour Train and experience a one day wilderness rail excursions to Agawa Canyon, operates from early June to mid October. Please contact us for information on exact dates. Algoma is ablaze with colour during autumn and for decades the Canyon Tour has been a favourite way for fall ‘leaf peepers’ to experience some of the most spectacular fall colour in North America.  
+        </p>
     </section>
-    <!-- Promo Video -->
-    <section id="promo-video">
-        <img src="images/fake_video.jpg" alt="Promo Video">
+
+    <!-- Activity Section 2 -->
+    <section id="act-1">
+        <img src="../images/NorthOn_3.jpg" alt="Slate Islands">
+        <h1 id="act-title">Slate Islands</h1>
+        <p id="act-p">Slate Islands Provincial Park is our brilliant gem on the waters of Lake Superior. Approximately 12 km (7.5 miles) south of Terrace Bay, on the Canadian North Shore of the Lake, Slate Islands Provincial Park is a 7 km-wide (0.6-miles) archipelago touched by a history of logging, mining, early Oneota and Iroquoian campsites, and a resilient herd of woodland caribou that migrated over by ice bridge most recently in 1907. </p>
     </section>
-    <!-- Call To Action -->
-    <section id="cta">
-        <h3>So, where do you want to travel to?</h3>
+
+    <!-- Activity Section 3 -->
+    <section id="act-1">
+        <img src="../images/NorthOn_4.jpg" alt="Old Woman Bay">
+        <h1 id="act-title">Old Woman Bay</h1>
+        <p id="act-p">A long sandy beach populated with driftwood surrounds you with the true beauty of Algoma at Old Woman Bay. Looking towards the horizon, the face of the Old Woman can be seen within the 200-metre standing cliffs to the left. The bay horseshoes out to the main body of Superior to the north, leading you to Entrance Island.  
+        </p>
     </section>
-    <!-- Map -->
-    <section id="map-banner">
-        <h2 class="hidden">Ontario Regions Map</h2>
-        <div id="map-mobile">
-        </div>
-        <div id="regions">
-            <router-link to="/southern" id="southern_ON">SOUTHERN ONTARIO</router-link>
-            <router-link to="/southwestern" id="southwestern_ON">SOUTHWESTERN ONTARIO</router-link>
-            <router-link to="/northern" id="northern_ON">NORTHERN ONTARIO</router-link>
-            <router-link to="/central" id="central_ON">CENTRAL ONTARIO</router-link>
-            <router-link to="/eastern" id="eastern_ON">EASTERN ONTARIO</router-link>
-        </div>
-        <div id="map-desktop">
-        </div>
-    </section>
+    
     <!-- Footer -->
     <footer>
         <!-- logo -->
@@ -80,7 +77,8 @@ export default {
             <h5>Copyright &copy; 2019 Ontariosummer</h5>
         </div>
     </footer>
-</body>
+    </body>
+
     `,
 
     created: function() {

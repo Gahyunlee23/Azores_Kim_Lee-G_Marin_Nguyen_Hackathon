@@ -16,41 +16,39 @@ export default {
         </div>
     </header>
     <!-- Hero Image -->
-    <section>
-        <div id="hero-image">
-            <h2 id="hero-text">FIND YOURSELF AT HOME</h2>
+    <section id="hero-image-eastern">
+        <div>
+            <h2 id="hero-text-south">EASTERN ONTARIO</h2>
+        </div>
+        <div id="hero-p">
+            <p>Eastern Ontario encompasses the countryside east of Toronto as far as the Québec border. Within weekending distance of Toronto, Prince Edward County's fertile pastures support a long farming tradition and young wine industry. 
+            </p>
         </div>
     </section>
-    <!-- About us -->
-    <section id="about-section">
-       <h1 class="hidden">About Us</h1>
-       <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus soluta nisi voluptatibus temporibus est corrupti deleniti dolores distinctio molestiae voluptas sit tenetur illo in facere sint, veniam deserunt laudantium iure!
-       </p>
+    <!-- Activity Section 1 -->
+    <section id="act-1">
+        <img src="../images/EastOn_2.jpg" alt="Rideau Canal">
+        <h1 id="act-title">Rideau Canal</h1>
+        <p id="act-p">The Rideau Canal Skateway is open between Waverley and Bank, including Patterson Creek and between Bronson and Library, including the Dows Lake Loop. Due to last night’s precipitation, the ice surface could not be flooded. Sweeping operations are in progress therefore, please use caution as maintenance equipment will be present on the ice.
+        </p>
     </section>
-    <!-- Promo Video -->
-    <section id="promo-video">
-        <img src="images/fake_video.jpg" alt="Promo Video">
+
+    <!-- Activity Section 2 -->
+    <section id="act-1">
+        <img src="../images/EastOn_3.jpg" alt="Thousand Islands">
+        <h1 id="act-title">Thousand Islands</h1>
+        <p id="act-p">The Thousand Islands are a group of more than 1,800 islands in the St. Lawrence River, straddling the border of the U.S. and Canada. A fashionable retreat for the elite in the late 19th century, today the area is a hub for outdoor activities. It’s home to elaborate island mansions such as the German-style Boldt Castle on Heart Island, and Singer Castle on Dark Island, with its Gothic windows and secret passageways.
+        </p>
     </section>
-    <!-- Call To Action -->
-    <section id="cta">
-        <h3>So, where do you want to travel to?</h3>
+
+    <!-- Activity Section 3 -->
+    <section id="act-1">
+        <img src="../images/EastOn_4.jpg" alt="Springer Market Square, Kingston">
+        <h1 id="act-title">Springer Market Square, Kingston</h1>
+        <p id="act-p">Downtown Kingston’s central hub, Springer Market Square has been a place for vendors to sell their wares for more than 200 years. The open space at King Street and Brock Street serves as an outdoor movie theatre on summer evenings and a skating rink in the winter with Kingston City Hall as a backdrop. Brick roads add to the period feel.
+        </p>
     </section>
-    <!-- Map -->
-    <section id="map-banner">
-        <h2 class="hidden">Ontario Regions Map</h2>
-        <div id="map-mobile">
-        </div>
-        <div id="regions">
-            <router-link to="/southern" id="southern_ON">SOUTHERN ONTARIO</router-link>
-            <router-link to="/southwestern" id="southwestern_ON">SOUTHWESTERN ONTARIO</router-link>
-            <router-link to="/northern" id="northern_ON">NORTHERN ONTARIO</router-link>
-            <router-link to="/central" id="central_ON">CENTRAL ONTARIO</router-link>
-            <router-link to="/eastern" id="eastern_ON">EASTERN ONTARIO</router-link>
-        </div>
-        <div id="map-desktop">
-        </div>
-    </section>
+    
     <!-- Footer -->
     <footer>
         <!-- logo -->
@@ -80,7 +78,8 @@ export default {
             <h5>Copyright &copy; 2019 Ontariosummer</h5>
         </div>
     </footer>
-</body>
+    </body>
+
     `,
 
     created: function() {
