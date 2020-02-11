@@ -1,0 +1,75 @@
+//------------------------> MOBILE
+
+//About us
+#about-section {
+    background-image: url(../images/blue_circle.svg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+    background-position: right;
+}
+
+#about-section {
+    p {
+        text-align: center;
+        font-family: $text;
+        padding: 40% 5% 5% 5%;
+        line-height: 1.4em;
+    }
+}
+
+//Promo Video 
+#promo-video {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+//Call To Action
+#cta {
+    h3 {
+        border: 4px solid black;
+        font-family: $text;
+        font-size: 1.8em;
+        text-align: center;
+        line-height: 1.2em;
+        padding: 30% 5%;
+        margin: 27% 9%;
+    }
+}
+
+#cta {
+    background-image: url(../images/yellow_circle.svg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    background-position: left;
+}
+
+//Map
+#map-mobile {
+    background-image: url(../images/map-mobile.svg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    margin: 5%;
+}
+
+//Regions
+#regions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 400px;
+    }
+    
+#regions {
+        
+    h1 {
+            cursor: pointer;
+            font-family: $title;
+            text-align: center;
+        }
+}
+    

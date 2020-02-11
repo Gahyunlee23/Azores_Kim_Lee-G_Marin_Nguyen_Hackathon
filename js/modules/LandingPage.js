@@ -15,6 +15,10 @@ export default {
             <router-link to="/SignIn">Sign up</router-link>   
         </div>
     </header>
+    <!-- Hero Image -->
+    <section>
+        <div id="hero-image"></div>
+    </section>
     <!-- About us -->
     <section id="about-section">
        <h1 class="hidden">About Us</h1>
@@ -33,6 +37,8 @@ export default {
     <!-- Map -->
     <section id="map-banner">
         <h2 class="hidden">Ontario Regions Map</h2>
+        <div id="map-mobile">
+        </div>
         <div id="regions">
             <h1 id="southern_ON">SOUTHERN ONTARIO</h1>
             <h1 id="southwestern_ON">SOUTHWESTERN ONTARIO</h1>
@@ -40,8 +46,7 @@ export default {
             <h1 id="central_ON">CENTRAL ONTARIO</h1>
             <h1 id="southern_ON">EASTERN ONTARIO</h1>
         </div>
-        <div id="map">
-            <img src="images/map.svg" alt="Ontario Map">
+        <div id="map-desktop">
         </div>
     </section>
     <!-- Footer -->
@@ -52,22 +57,25 @@ export default {
         </div>
         <!-- links -->
         <div id="links">
-            <h1>Links</h1>
-            <h3>Ontariossouthwest.com</h3>
-            <h3>Southeasternontario.ca</h3>
-            <h3>Visitnorthwestontario.com</h3>
+            <h1>LINKS</h1>
+            <div id="separation-line"></div>
         </div>
-        <!-- social media -->
+        <!-- URL -->
         <div>
-            <h1>FOLLOW US</h1>
-            <ul>
-                <li><a href="facebook.com" target="_blank">FACEBOOK</a></li>
-                <li><a href="instagram.com" target="_blank">INSTAGRAM</a></li>
-                <li><a href="twitter.com" target="_blank">TWITTER</a></li>
+            <ul id="footer-links">
+                <li><a href="Ontariossouthwest.com" target="_blank">Ontariossouthwest.com</a></li>
+                <li><a href="Southeasternontario.ca" target="_blank">Southeasternontario.ca</a></li>
+                <li><a href="Visitnorthwestontario.com" target="_blank">Visitnorthwestontario.com</a></li>
             </ul>
         </div>
-        <div>
-            <h5>Copyrights &copy; Awesome Team</h5>
+        <!-- Social Media -->
+        <div id="social-media">
+            <a href="twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+        </div>
+        <div id="copyrights">
+            <h5>Copyright &copy; 2019 Ontariosummer</h5>
         </div>
     </footer>
 </body>
