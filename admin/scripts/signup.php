@@ -27,12 +27,14 @@ function signup($firstname, $lastname, $email, $country, $update_date) {
                 'From' => 'noreply@test.ca',
                 'Reply-To' => $firstname.'<'.$email.'>'
             );
+            $to = $email;
             $subject = "Thanks for returning to us";
-            $msg = "Hey returning user";
-            if(mail($email, $subject, $msg, $headers)) {
+            $msg = "Hi returning user";
+
+            if(mail($to, $subject, $msg, $headers)) {
                 echo '<p> Thanks for returning, '.$firstname.'</p>';
             } else {
-                echo '<p> We are sorry but eamil did not go through</p>';
+                echo '<p> It does not go through... Sorry!</p>';
             }
             // while($existuser = $user_update->fetch(PDO::FETCH_ASSOC)) {
                 
@@ -55,8 +57,8 @@ function signup($firstname, $lastname, $email, $country, $update_date) {
                 'From' => 'noreply@test.ca',
                 'Reply-To' => $firstname.'<'.$email.'>'
             );
-            $subj = "Thanks for returning to us";
-            $msgs = "Hey returning user";
+            $subj = "Thanks for starting with us";
+            $msgs = "Hi new user";
             if(mail($email, $subj, $msgs, $headers)) {
                 echo '<p> Thanks for contacting us, '.$firstname.'</p>';
             } else {
