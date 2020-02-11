@@ -1,13 +1,13 @@
 //create a couple of components we can request and render
-import LandingPage from "./modules/LandingPage.js";
-import SignIn from "./modules/SignIn.js";
+import Component1 from "./modules/Component1.js";
+import Component2 from "./modules/Component2.js";
 import ErrorComponent from "./modules/ErrorComponent.js";
 
 
 //these are the same as Express routes -> router.get('/, ... do something with the request)
 const routes = [
-    { path: '/', name: 'LandingPage', component: LandingPage },
-    { path: '/SignIn', name: 'SignIn', component: SignIn },
+    { path: '/', name: 'Component1', component: Component1 },
+    { path: '/Component2', name: 'Component2', component: Component2 },
     { path: '*', name: 'error', component: ErrorComponent }
 ]
 
@@ -26,4 +26,4 @@ const vm = new Vue({
     },
 
     router
-}).$mount("#app");
+}).$mount("#Component1");
