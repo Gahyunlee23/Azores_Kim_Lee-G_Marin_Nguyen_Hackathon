@@ -1,3 +1,4 @@
+![OurLogoImage](images/logo_clear100.svg "Logo")
 # Ontario Tourism Project
 
 Making a a responsive single website featuring a ontario tourism, each of 5 members takes design, project manager, motion design, front-end developer, back-end developer. 
