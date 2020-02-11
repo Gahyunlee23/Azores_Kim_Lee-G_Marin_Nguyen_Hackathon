@@ -1,0 +1,100 @@
+//MOBILE
+#hero-image-south {
+    background-image: url(../images/south-hero.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-text-south {
+        display: block;
+        text-align: center;
+        font-family: $title;
+        color: white;
+        font-size: 4em;
+        padding-top: 33%;
+        font-weight: 700;
+}
+
+#hero-p {
+    font-family: $text;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10% 5%;
+}
+
+
+//Activity 1
+
+#act-1 {
+    img {
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#act-title {
+    font-family: $title;
+    color: $orange;
+    margin-left: 5%;
+    font-size: 2.5em;
+    margin-top: 5%;
+}
+
+#act-p {
+    font-family: $text;
+    font-size: 1em;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+//----------------> QUERIES
+
+//media query 768px ---TABLET---
+@media screen and (min-width: 48em) {
+    #hero-p {
+        width: 40%;
+        margin: 10% 28%;
+    }
+
+    #act-title {
+        text-align: center;
+        width: 60%;
+        line-height: 1.5em;
+        margin-left: 16%;
+        font-size: 3.4em;
+        font-weight: 700;
+    }
+
+    #act-p {
+        font-size: 1.2em;
+        display: block;
+        margin-right: 5%;
+        margin-top: 10%;
+        margin-bottom: 30%;
+        width: 60%;
+        line-height: 1.5;
+        margin-left: 21%;
+    }
+}
+
+
+//media query 768px ---DESKTOP---
+@media screen and (min-width: 64em) {
+    #hero-p {
+        margin-top: 4%;
+    }
+
+    #act-p {
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+}
