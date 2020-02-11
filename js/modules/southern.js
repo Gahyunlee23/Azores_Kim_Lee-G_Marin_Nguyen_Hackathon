@@ -16,41 +16,60 @@ export default {
         </div>
     </header>
     <!-- Hero Image -->
-    <section>
-        <div id="hero-image">
-            <h2 id="hero-text">FIND YOURSELF AT HOME</h2>
+    <section id="hero-image-south">
+        <div>
+            <h2 id="hero-text-south">SOUTH ONTARIO</h2>
+        </div>
+        <div id="hero-p">
+            <p>Southern Ontario is a primary region of the province of Ontario.</p>
         </div>
     </section>
-    <!-- About us -->
-    <section id="about-section">
-       <h1 class="hidden">About Us</h1>
-       <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus soluta nisi voluptatibus temporibus est corrupti deleniti dolores distinctio molestiae voluptas sit tenetur illo in facere sint, veniam deserunt laudantium iure!
-       </p>
+    <!-- Activity Section 1 -->
+    <section id="act-1">
+        <img src="../images/SouthOn_2.jpg" alt="Bruce Peninsula National Park">
+        <h1 id="act-title">Bruce Peninsula National Park</h1>
+        <p id="act-p">Dramatic cliffs rise from the turquoise
+            waters of Georgian Bay. In large tracts of
+            forest, black bears roam and rare reptiles
+            find refuge in rocky areas and diverse
+            wetlands. Ancient cedar trees spiral from
+            the cliff edge; a multitude of orchids and
+            ferns take root in a mosaic of habitats. And
+            the night is brilliant with stars in this Dark
+            Sky Preserve.</p>
     </section>
-    <!-- Promo Video -->
-    <section id="promo-video">
-        <img src="images/fake_video.jpg" alt="Promo Video">
+
+    <!-- Activity Section 2 -->
+    <section id="act-1">
+        <img src="../images/SouthOn_3.jpg" alt="Blue Mountain">
+        <h1 id="act-title">Blue Mountain</h1>
+        <p id="act-p">Blue Mountain is an alpine ski resort in
+            Ontario, Canada, just northwest of
+            Collingwood. It is situated on a section of
+            the Niagara Escarpment about 1 km (0.6
+            mi.) from Nottawasaga Bay, and is a major
+            destination for skiers from southern
+            Ontario. The local area forms the newly
+            incorporated town of The Blue Mountains,
+            Ontario.</p>
     </section>
-    <!-- Call To Action -->
-    <section id="cta">
-        <h3>So, where do you want to travel to?</h3>
+
+    <!-- Activity Section 3 -->
+    <section id="act-1">
+        <img src="../images/SouthOn_4.jpg" alt="Canada’s Wonderland">
+        <h1 id="act-title">Canada’s Wonderland</h1>
+        <p id="act-p">Dramatic cliffs rise from the turquoise
+            Canada's Wonderland is a 134-hectare
+            (330-acre) theme park located in Vaughan,
+            Ontario, a suburb approximately 25
+            kilometres (16 mi) north of Downtown
+            Toronto. Opened in 1981 by the Taft
+            Broadcasting Company and The Great-West
+            Life Assurance Company as the first major
+            theme park in Canada, it remains the
+            country's largest.</p>
     </section>
-    <!-- Map -->
-    <section id="map-banner">
-        <h2 class="hidden">Ontario Regions Map</h2>
-        <div id="map-mobile">
-        </div>
-        <div id="regions">
-            <router-link to="/southern" id="southern_ON">SOUTHERN ONTARIO</router-link>
-            <h1 id="southwestern_ON">SOUTHWESTERN ONTARIO</h1>
-            <h1 id="northern_ON">NORTHERN ONTARIO</h1>
-            <h1 id="central_ON">CENTRAL ONTARIO</h1>
-            <h1 id="southern_ON">EASTERN ONTARIO</h1>
-        </div>
-        <div id="map-desktop">
-        </div>
-    </section>
+    
     <!-- Footer -->
     <footer>
         <!-- logo -->

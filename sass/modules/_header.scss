@@ -1,4 +1,5 @@
-//Header Flexbox
+
+//------------------------> MOBILE
 
 #hero-section {
     display: flex;
@@ -14,7 +15,11 @@
 
 #logo-header img {
     width: 45%;
-    padding: 5%;
+    padding: 9% 0 0 9%;
+}
+
+#hero-text {
+    display: none;
 }
 
 #header-nav {
@@ -35,9 +40,8 @@
 //     }
 // }
 #sign-in{
-    width: 6em;
-    margin-top: 10%;
-    margin-right: 3%;
+    width: 10em;
+    margin-top: 11%;
 } 
 
 #sign-in {
@@ -48,10 +52,145 @@
         background-color: $yellow;
         color: black;
         padding: 2px 16px;
-        font-family: $header;
-
+        font-family: $text;
     }
 }
 
+#hero-image {
+    background-image: url(../images/Home_hero.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
 
 
+//----------------> QUERIES
+
+//media query 768px ---TABLET---
+@media screen and (min-width: 48em) {
+    #logo-header {
+        position: absolute;
+        width: 26%;
+        height: 200px;
+        margin-left: 5%;
+    }
+
+    #logo-header {
+        img {
+            width: 69%;
+            padding: 19% 0 0 15%;
+        }
+    }
+
+    #sign-in {
+        margin-left: 82%;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    #header-nav {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 52%;
+        margin-top: -102px;
+        position: absolute;
+
+    }
+
+    #header-nav {
+        a {
+            img {
+                width: 25px;
+                padding: 20px;
+                margin-top: 100px;
+            }
+        }
+    }
+
+    #hero-text {
+        display: block;
+        text-align: center;
+        font-family: $title;
+        color: white;
+        font-size: 4em;
+        padding-top: 33%;
+        font-weight: 700;
+    }
+}
+
+//media query 768px ---DESKTOP---
+@media screen and (min-width: 64em) {
+    #logo-header {
+        height: 200px;
+        width: 18%;
+    }
+
+    #logo-header {
+        img {
+            width: 65%;
+            padding: 21% 0 0 16%;
+        }
+    }
+
+    #hero-text {
+        font-size: 3.5em; 
+        padding-top: 27%;
+    }
+
+    #sign-in {
+        width: 11em;
+        margin-top: 3%;
+    }
+
+    #sign-in {
+        a {
+            padding: 4px 20px;
+        }
+    }
+
+    #header-nav {
+        margin-left: 57%;
+    }
+}
+
+//media query 768px ---MAX DESKTOP---
+@media screen and (min-width: 90em) {
+    #hero-image {
+        height: 900px;
+    }
+
+    #sign-in {
+        a {
+            padding: 6px 30px;
+        }
+    }
+
+    #sign-in {
+        margin-bottom: 2%;
+    }
+
+    #header-nav {
+        a {
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    #header-nav {
+        margin-left: 60%;
+        margin-top: -78px;
+    }
+
+    #logo-header {
+        height: 250px;
+    }
+
+    #hero-text {
+        font-size: 5em;
+    }
+}   
