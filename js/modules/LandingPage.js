@@ -25,7 +25,8 @@ export default {
     <section id="about-section">
        <h1 class="hidden">About Us</h1>
        <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus soluta nisi voluptatibus temporibus est corrupti deleniti dolores distinctio molestiae voluptas sit tenetur illo in facere sint, veniam deserunt laudantium iure!
+       In 2017, 43 million people visited Ontario and spent $ 9B and the number of travellers visiting Ontario is increasing. We help this by creating a campaign to convey more accurate and diverse information to the growing number of travellers.  
+       This website will have a good impact on informing potential tourists about Ontario.
        </p>
     </section>
     <!-- Promo Video -->
