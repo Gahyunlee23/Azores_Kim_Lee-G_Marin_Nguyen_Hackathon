@@ -7,9 +7,9 @@ export default {
             <img src="images/logo_clear100.svg" alt="Ontario Summer Logo">
         </div>
         <div id="header-nav">
-            <img src="images/twitter.svg" alt="Twitter">
-            <img src="images/facebook.svg" alt="Facebook">
-            <img src="images/instagram.svg" alt="Instagram">
+            <a href="twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
         </div>
         <div id="sign-in">
             <router-link to="/SignIn">Sign up</router-link>   
@@ -17,7 +17,9 @@ export default {
     </header>
     <!-- Hero Image -->
     <section>
-        <div id="hero-image"></div>
+        <div id="hero-image">
+            <h2 id="hero-text">FIND YOURSELF AT HOME</h2>
+        </div>
     </section>
     <!-- About us -->
     <section id="about-section">

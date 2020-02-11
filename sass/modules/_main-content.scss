@@ -72,4 +72,49 @@
             text-align: center;
         }
 }
+
+//----------------> QUERIES
+
+//media query 768px ---TABLET---
+@media screen and (min-width: 48em) {
+    #about-section {
+        p {
+            font-size: 1.7em;
+            line-height: 1.7em;
+            padding-top: 17%;
+        }
+    }
+
+    #cta {
+        h3 {
+            font-size: 3.8em;
+        }
+    }
+
+    #map-mobile {
+        margin-top: 44%;
+    }
+
+    #regions {
+        h1 {
+            font-size: 2em;
+        }
+    }
+
+    // #map-mobile {
+    //     display: none;
+    // }
+
+    // #map-desktop {
+    //     display: block;
+    //     background-image: url(../images/map.svg);
+    //     background-repeat: no-repeat;
+    //     height: 400px;
+    //     width: auto;
+    //     background-position: center;
+    //     margin: 5%;
+    // }
+
+
+}
     

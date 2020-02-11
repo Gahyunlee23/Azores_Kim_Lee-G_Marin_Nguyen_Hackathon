@@ -94,4 +94,35 @@ footer {
     }
 }
 
+//----------------> QUERIES
 
+//media query 768px ---TABLET---
+@media screen and (min-width: 48em) {
+    #links {
+        h1 {
+            margin-left: 57%;
+        }
+    }
+
+    #separation-line {
+        margin-left: 57%;
+        margin-top: -10%;
+    }
+
+    #footer-links {
+        margin-left: 57%;
+        margin-top: -7%;
+    }
+
+    #social-media {
+        margin-left: 33%;
+        margin-top: 0;
+    }
+
+    #copyrights {
+        h5 {
+            font-size: 1em;
+        }
+    }
+    
+}
