@@ -136,6 +136,16 @@ footer {
         }
     }
 
+    #footer-links {
+        li {
+            a:hover {
+                color: rgb(119, 119, 119);
+                transition-timing-function: ease;
+                transition: 0.25s;
+            }
+        }
+    }
+
     #social-media {
         margin-top: -33px;
     }
