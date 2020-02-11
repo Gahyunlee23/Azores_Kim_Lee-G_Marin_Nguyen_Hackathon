@@ -42,7 +42,7 @@ export default {
         <div id="map-mobile">
         </div>
         <div id="regions">
-            <h1 id="southern_ON">SOUTHERN ONTARIO</h1>
+            <router-link to="/southern" id="southern_ON">SOUTHERN ONTARIO</router-link>
             <h1 id="southwestern_ON">SOUTHWESTERN ONTARIO</h1>
             <h1 id="northern_ON">NORTHERN ONTARIO</h1>
             <h1 id="central_ON">CENTRAL ONTARIO</h1>
