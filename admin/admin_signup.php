@@ -2,7 +2,7 @@
     require_once '../load.php';
     date_default_timezone_set('America/Toronto');
     $update_date = date("Y-m-d, H:i:s");
-    // echo $update_date;
+    echo $update_date;
 
     if(isset($_POST['submit'])) {
         $firstname = trim($_POST['firstname']);
